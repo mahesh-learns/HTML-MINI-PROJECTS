@@ -62,7 +62,7 @@ By completing these tasks, I learned:
 
 **Mahesh**
 
-- GitHub: https://github.com/your-github-mahesh-learns
+- GitHub: https://github.com/mahesh-learns
 
 ## ⭐ Support
 
