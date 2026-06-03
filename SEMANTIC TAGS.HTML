@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>A Registration Form</legend>
+    <table cellpadding = "10">
+        <tr>
+            <td>
+                <label for = "fname">First Name</label>
+                <td>:</td>
+                <td><input type="text" id = "fname" maxlength="20" minlength="3">
+                (Max 20 char a-z and A-Z)
+                </td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "lname">Last Name</label>
+                <td>:</td>
+                <td><input type="text" id = "lname" maxlength="20" minlength="3">
+                (Max 20 char a-z and A-Z)
+                </td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "dob">Date Of Birth</label>
+                <td>:</td>
+                <td><input type="date" id = "dob">
+                </td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "gender">Gender</label>
+                <td>:</td>
+                <td>
+                    <input type = "radio" id = "male" name = "gender">
+                    <label for = "male">Male</label>
+                    <input type = "radio" id = "female" name = "gender">
+                    <label for = "female">Female</label>
+                    <input type = "radio" id = "other" name = "gender">
+                    <label for = "other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "phone">Phone Number</label>
+                    <td>:</td>
+                    <td><input type = "number" id = "phone" maxlength="10" minlength="10">
+                    (10 digit number)</td>
+        </tr>
+        <tr>
+            <td>
+                <label for = "email">Email</label>
+                <td>:</td>
+                <td><input type = "email" id = "email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "address">Address</label>
+                    <td>:</td>
+                    <td><textarea id = "address"></textarea>
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "City">City</label>
+                    <td>:</td>
+                    <td><input type = "text" id = "City">
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "pin">Pin Code</label>
+                    <td>:</td>
+                    <td><input type = "number" id = "pin">
+                    (6 digit number)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "state">State</label>
+                    <td>:</td>
+                    <td><input type = "text" id = "state">
+                    </td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for = "country">Country</label>
+                    <td>:</td>
+                    <td><input type = "text" id = "country">
+                    </td>
+                </td>
+                <br>
+                <br>
+            <tr>
+        <td>Hobbies</td>
+        <td>:</td>
+        <td>
+            <input type="checkbox"> Playing
+            <input type="checkbox"> Singing
+            <input type="checkbox"> Dancing
+            <input type="checkbox"> Drawing
+            <br><br>
+            <input type="checkbox"> Others
+            <input type="text">
+        </td>
+    </tr>
+</table>
+            <br>
+            <br>
+   <table cellpadding = "10" cellspacing = "0">
+    <tr>
+        <td rowspan="5">Qualification :</td>
+        <td>Sl.No</td>
+        <td>Examination</td>
+        <td>Board</td>
+        <td>Percentage</td>
+        <td>Year of Pass</td>
+    </tr>
+
+    <tr>
+        <td>01</td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+    </tr>
+
+    <tr>
+        <td>02</td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+    </tr>
+
+    <tr>
+        <td>03</td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+    </tr>
+
+    <tr>
+        <td>04</td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+        <td><input type="text" size="20"></td>
+    </tr>
+</table>
+            
+                <br>
+        </tr>
+        <tr>
+            <td>
+                    <label for = "course">Courses Applied For :</label>
+                    <input type = "checkbox" id = "course">
+                    <label for = "course">BCA</label>
+                    <input type = "checkbox" id = "course">
+                    <label for = "course">BSc</label>
+                    <input type = "checkbox" id = "course">
+                    <label for = "course">BA</label>
+                    <input type = "checkbox" id = "course">
+                    <label for = "course">BCom</label>
+                    <br>
+                    <br>
+            </td>
+                    <td>
+                    <center>
+                    <button>Submit    </button>
+                    <button>Reset</button>
+                    </center>
+                    </td>
+
+
+                </table>
+                  
+        </fieldset>
+    </form>
+</body>
+</html>
