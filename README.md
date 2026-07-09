@@ -33,6 +33,7 @@ This repository contains various HTML tasks and mini projects that help in under
 ## 🛠 Technologies Used
 
 - HTML5
+- CSS 3
 
 ## 🎯 Purpose
 
